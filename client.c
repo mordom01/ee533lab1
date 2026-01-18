@@ -4,6 +4,11 @@
 #include <netinet/in.h>
 #include <netdb.h> 
 
+#include <stdlib.h>
+#include<string.h>
+#include<strings.h>
+#include<unistd.h>
+
 void error(char *msg)
 {
     perror(msg);
